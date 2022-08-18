@@ -26,11 +26,11 @@ jobs:
         with:
           context: ./backend
           push: true
-          tags: user/app:latest
+          tags: nanie20/backend:latest
 
       - name: Build and push frontend
         uses: docker/build-push-action@v3
         with:
           context: ./frontend
           push: true
-          tags: user/app:latest
+          tags: nanie20/frontendy:latest
