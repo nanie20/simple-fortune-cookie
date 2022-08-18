@@ -17,7 +17,7 @@ jobs:
         uses: docker/login-action@v2
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUBg_PASSWORD }}
+          password: ${{ secrets.DOCKERHUB_PASSWORD }}
       - name: clone-repo
         uses: actions/checkout@v2
  
